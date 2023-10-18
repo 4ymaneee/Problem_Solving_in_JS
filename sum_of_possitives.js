@@ -1,4 +1,3 @@
-arr = []
 function positiveSum(arr){
     let sum = 0
     for(let i = 0; i < arr.length; i++){
@@ -9,4 +8,4 @@ function positiveSum(arr){
     return sum
 }
 
-console.log(positiveSum(arr))
+console.log(positiveSum([1,2,3,4,5,-20,1,-2,-100]))
