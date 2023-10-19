@@ -2,13 +2,6 @@
 
 Welcome to my JavaScript problem-solving repository! Here you can find solutions to various CodeWars problems.
 
-## Table of Contents
-
-1. [Problem 1](#problem-1)
-2. [Problem 2](#problem-2)
-3. ...
-4. [Problem 100](#problem-100)
-
 ## Getting Started
 
 If you're new to CodeWars or want to try these problems yourself, you can visit [CodeWars](https://www.codewars.com/). Create an account and start practicing!
