@@ -1,15 +1,5 @@
 function feast(beast, dish) {
-    let beastArray = beast.split('')
-    let dishArray = dish.split('')
-    if(beastArray[0] == dishArray[0] ){
-        if(beastArray[beastArray.length - 1] == dishArray[dishArray.length - 1]){
-            return true
-        }else {
-            return false
-        }
-    }else {
-        return false
-    }
+    return beast[0] == dish[0] && beast[beast.length-1] == dish[dish.length-1]
 }
 
 console.log(feast("great blue heron", "garlic naas"))
