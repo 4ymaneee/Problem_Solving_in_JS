@@ -1,11 +1,9 @@
 function findMultiples(integer, limit) {
   let array = [];
-  let result = 0;
   for (let i = 1; i <= limit; i++) {
-    result = integer * i;
-
+    let result = integer * i;
     if (result <= limit) {
-      array.push(integer * i);
+      array.push(result);
     }
   }
   return array;
