@@ -1,10 +1,3 @@
-// create a function
-// loop through m
-//create a variable that sum the multiply result +=
-// check if n * i  + n* i+1 ...  < m
-// then return the final value
-//check if m > 0
-
 function sumMul(n, m) {
   let sumMultiply = 0;
   let multiply = 0;
