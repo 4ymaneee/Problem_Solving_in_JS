@@ -13,4 +13,4 @@ function getMiddle(s) {
       }
 }
 
-console.log(getMiddle("A"));
+console.log(getMiddle("aymane"));
