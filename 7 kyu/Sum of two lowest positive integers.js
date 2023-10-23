@@ -23,7 +23,7 @@ function sumTwoSmallestNumbers(numbers) {
     
     for(num in numbers){
         if(firstlowestNumber > numbers[num]){
- 
+          secondLowestNumber = firstlowestNumber
             firstlowestNumber = numbers[num]
         }else if(secondLowestNumber > numbers[num]){
             secondLowestNumber = numbers[num]
